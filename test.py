@@ -48,7 +48,7 @@ transforms = torchvision.transforms.Compose([
     transforms.Normalize((0.5,), (0.5,))
 ])
 
-dir = "datasetCarsDownsize"
+dir = "datasetCars"
 trainset = datasets.ImageFolder(dir + '/train', transform=transforms)
 testset = datasets.ImageFolder(dir + '/test', transform=transforms)
 
